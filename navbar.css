@@ -1,0 +1,51 @@
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    margin-top: 2%;
+    left: 15%;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    float: left;
+    color: #123239;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 16px 18px;
+  }
+  
+  .topnav a.active {
+    color: #707070;
+  }
+  
+  .topnav-centered img {
+    float: none;
+    position: absolute;
+    left: 32%;
+    padding-top: 7px;
+}
+  .topnav-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
