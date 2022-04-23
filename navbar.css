@@ -19,7 +19,7 @@
     color: #123239;
     text-decoration: none;
     font-size: 17px;
-    padding: 16px 18px;
+    padding: 20px 30px;
   }
   
   .topnav a.active {
@@ -36,6 +36,29 @@
     float: right;
   }
   
+  .ad-img {
+    margin-top: 5%;
+    left: 8%;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  .ad-div_2 {
+    margin-bottom: 10%;
+    left: 9%;
+    width: 83%;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    background-color: #123239;
+    color: white;
+    padding: 25px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+  }
+
   @media screen and (max-width: 600px) {
     .topnav a, .topnav-right {
       float: none;
