@@ -127,15 +127,27 @@ body {
   height: 2px;
 }
 
-.ad-img{
+.ad-img-pc{
   width: 85%;
   margin-top: 2%;
   margin-left: 7.5%;
 }
 
-.ad-img img{
+.ad-img-pc img{
   padding: 20px;
   width: 100%;
+  height: auto;
+}
+.ad-img-mobile {
+  display: none;
+  width: 85%;
+  margin-top: 2%;
+  margin-left: 7.5%;
+}
+.ad-img-mobile img{
+  padding: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .ad-div {
@@ -152,10 +164,12 @@ body {
 
 
 @media only screen and (max-width: 650px) {
-  .ad-img {
+  .ad-img-pc {
     display: none;
   }
-
+  .ad-img-mobile{
+    display: block;
+  }
   .container1 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -183,7 +197,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #ffffff;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
     overflow: auto;
