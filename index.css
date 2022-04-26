@@ -11,6 +11,30 @@ body {
   padding: 0;	
 }
 
+.collapsible {
+  background-color: #123239;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 .container1 {
   height: 60px;
   width: 80%;
@@ -59,8 +83,8 @@ body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 0 10px;
-  margin-left: 20%;
+  padding: 0 0px;
+  margin-left: 14%;
 }
 
 .container1 .navbar1 ul {
@@ -85,7 +109,7 @@ body {
   height: 60px;
   line-height: 60px;
   cursor: pointer;
-  padding: 0px 25px;
+  padding: 0px 15px;
 }
 
 .container1 .navbar1 ul li a:hover {
@@ -161,7 +185,6 @@ body {
   padding: 25px;
   font-size: 17px;
 }
-
 
 @media only screen and (max-width: 650px) {
   .ad-img-pc {
